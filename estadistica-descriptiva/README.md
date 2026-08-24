@@ -1,5 +1,7 @@
 # 📊 Estadística Descriptiva
 
+[![Abrir cuaderno de NotebookLM](https://img.shields.io/badge/🤖_NotebookLM-Abrir_cuaderno_del_curso-4285F4?style=for-the-badge)](https://notebooklm.google.com/notebook/76d3ee1d-0c69-4c0b-8d7f-6cba705bee51)
+
 > 👋 Bienvenido/a al curso de Estadística Descriptiva.
 
 ## 📖 Sobre el curso

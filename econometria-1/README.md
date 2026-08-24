@@ -1,5 +1,7 @@
 # 📐 Econometría I
 
+[![Abrir cuaderno de NotebookLM](https://img.shields.io/badge/🤖_NotebookLM-Abrir_cuaderno_del_curso-4285F4?style=for-the-badge)](https://notebooklm.google.com/notebook/f09c2614-0801-4d6b-bb6d-b55e1083647d)
+
 > 👋 Bienvenido/a al curso de Econometría I.
 
 ## 📖 Sobre el curso

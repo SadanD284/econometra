@@ -1,5 +1,7 @@
 # 📈 Inferencia Estadística
 
+[![Abrir cuaderno de NotebookLM](https://img.shields.io/badge/🤖_NotebookLM-Abrir_cuaderno_del_curso-4285F4?style=for-the-badge)](https://notebooklm.google.com/notebook/eb9d9a19-dc0e-411b-9609-a0936364409f)
+
 > 👋 Bienvenido/a al curso de Inferencia Estadística.
 
 ## 📖 Sobre el curso
