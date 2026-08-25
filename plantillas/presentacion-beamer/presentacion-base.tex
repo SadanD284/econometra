@@ -1,0 +1,132 @@
+% presentacion-base.tex
+% Plantilla base de presentaciones — Económetra Lab, Universidad de Pamplona
+%
+% Cómo usarla:
+%   1. Copia este archivo (y econometralab.sty) a la carpeta de la unidad que vayas a preparar,
+%      p. ej. respaldo/estadistica-descriptiva/unidad1.tex
+%   2. Ajusta los campos de la sección "DATOS DE LA PRESENTACIÓN" más abajo.
+%   3. Reemplaza el contenido de ejemplo por el material real de la unidad.
+%   4. Compila con pdflatex (dos veces si usas \tableofcontents o referencias cruzadas):
+%        pdflatex presentacion-base.tex
+%
+% Requiere una distribución LaTeX estándar (TeX Live / MiKTeX) con beamer y tikz — no
+% depende de ningún paquete o tema externo adicional.
+
+\documentclass[aspectratio=169,11pt]{beamer}
+\usepackage[spanish,es-noquoting]{babel}
+\usepackage{econometralab}
+
+% ============================================================================
+% DATOS DE LA PRESENTACIÓN — edita esto para cada unidad/curso
+% ============================================================================
+\setElCourse{Estadística Descriptiva}
+\setElUnit{Unidad 1 \textperiodcentered\ Conceptos básicos y descripción de las variables}
+\setElProfessor{Sadan De la Cruz}
+\setElTerm{Universidad de Pamplona \textperiodcentered\ 2026-II}
+\setElCourseShort{Estadística Descriptiva}
+
+\title{Estadística Descriptiva}
+\author{Sadan De la Cruz}
+\institute{Departamento de Economía, Universidad de Pamplona}
+\date{2026-II}
+% ============================================================================
+
+\begin{document}
+
+% ---- Portada ---------------------------------------------------------------
+\maketitle
+
+% ---- Agenda -----------------------------------------------------------------
+\begin{frame}{Agenda}
+  \tableofcontents
+\end{frame}
+
+% =============================================================================
+\section{Introducción}
+% =============================================================================
+
+\begin{frame}{¿Por qué importa este tema?}
+  \begin{itemize}
+    \item Todo análisis económico riguroso empieza por \textbf{entender los datos} antes de modelarlos.
+    \item Las variables económicas rara vez se explican solas: necesitan clasificación, resumen y representación adecuada.
+    \item Esta unidad sienta las bases conceptuales que usaremos durante todo el curso.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Objetivos de la unidad}
+  \begin{itemize}
+    \item Clasificar variables según su naturaleza (cualitativas / cuantitativas).
+    \item Distinguir entre escalas de medición: nominal, ordinal, de intervalo y de razón.
+    \item Reconocer fuentes de datos económicos oficiales y su estructura.
+  \end{itemize}
+\end{frame}
+
+% =============================================================================
+\section{Marco conceptual}
+% =============================================================================
+
+\begin{frame}{Definición}
+  \begin{block}{Variable estadística}
+    Una \textbf{variable} es una característica observable que puede tomar distintos valores
+    en las unidades de un conjunto de estudio (individuos, hogares, municipios, empresas, etc.).
+  \end{block}
+  \vspace{0.3cm}
+  \begin{alertblock}{Ejemplo}
+    En la Gran Encuesta Integrada de Hogares (GEIH), el \emph{nivel educativo} es una variable
+    cualitativa ordinal; el \emph{ingreso laboral mensual} es una variable cuantitativa continua.
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{Clasificación de variables}
+  \begin{table}
+    \centering
+    \begin{tabular}{lll}
+      \toprule
+      \textbf{Tipo} & \textbf{Subtipo} & \textbf{Ejemplo} \\
+      \midrule
+      Cualitativa & Nominal & Sexo, sector económico \\
+      Cualitativa & Ordinal & Nivel educativo, estrato \\
+      Cuantitativa & Discreta & Número de hijos en el hogar \\
+      Cuantitativa & Continua & Ingreso laboral, edad \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{frame}
+
+% =============================================================================
+\section{Aplicación}
+% =============================================================================
+
+\begin{frame}{Caso aplicado: GEIH}
+  \begin{itemize}
+    \item Fuente: Gran Encuesta Integrada de Hogares, DANE.
+    \item Unidad de observación: hogar / persona.
+    \item Variables de interés: ingreso, ocupación, nivel educativo, municipio.
+  \end{itemize}
+  \vspace{0.3cm}
+  \begin{block}{Pregunta para discusión}
+    ¿Qué escala de medición corresponde a la variable \emph{municipio de residencia}? ¿Y a
+    \emph{número de personas en el hogar}?
+  \end{block}
+\end{frame}
+
+% =============================================================================
+\section{Cierre}
+% =============================================================================
+
+\begin{frame}{Para llevar}
+  \begin{itemize}
+    \item La naturaleza de una variable determina qué herramientas estadísticas podemos usar con ella.
+    \item Clasificar bien las variables es el primer paso de cualquier análisis descriptivo.
+    \item En la próxima unidad aplicaremos esta clasificación a tablas de frecuencia y gráficas.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Referencias}
+  \begin{itemize}
+    \item Lind, D., Marchal, W. \& Wathen, S. \emph{Estadística aplicada a los negocios y la economía}.
+    \item Chao, L. \emph{Estadística para ciencias administrativas}.
+  \end{itemize}
+\end{frame}
+
+\end{document}
